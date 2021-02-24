@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Got Back</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Since id cannot be shared with audio element, i use data-type instead -->
+        <div data-type="KeyA" class="key">
+            <div class="word">Oh</div>
+            <div class="keyboard">A</div>
+        </div>
+        <div data-type="KeyS" class="key">
+            <div class="word">my</div>
+            <div class="keyboard">S</div>
+        </div>
+        <div data-type="KeyD" class="key">
+            <div class="word">God!</div>
+            <div class="keyboard">D</div>
+        </div>
+        <div data-type="KeyF" class="key">
+            <div class="word">Becky</div>
+            <div class="keyboard">F</div>
+        </div>
+        <div data-type="KeyG" class="key">
+            <div class="word">Look at her</div>
+            <div class="keyboard">G</div>
+        </div>
+        <div data-type="KeyH" class="key">
+            <div class="word">Butt</div>
+            <div class="keyboard">H</div>
+        </div>
+    </div>
+
+    <audio data-type="KeyA" src="wav/oh.wav"></audio>
+    <audio data-type="KeyS" src="wav/my.wav"></audio>
+    <audio data-type="KeyD" src="wav/god.wav"></audio>
+    <audio data-type="KeyF" src="wav/becky.wav"></audio>
+    <audio data-type="KeyG" src="wav/look_at_her.wav"></audio>
+    <audio data-type="KeyH" src="wav/butt.wav"></audio>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -11,10 +11,11 @@
 
 <body>
     <div class="container">
-        <!-- Since id cannot be shared with audio element, i use data-type instead -->
+        <!-- Since id cannot be shared with audio element, I use data-type instead -->
         <div data-type="KeyA" class="key">
-            <div class="word">Oh</div>
-            <div class="keyboard">A</div>
+            <!-- Entire wrapper -->
+            <div class="word">Oh</div> <!-- Display lyric -->
+            <div class="keyboard">A</div> <!-- Display keyboard shortcut -->
         </div>
         <div data-type="KeyS" class="key">
             <div class="word">my</div>
@@ -38,7 +39,7 @@
         </div>
     </div>
 
-    <audio data-type="KeyA" src="wav/oh.wav"></audio>
+    <audio data-type="KeyA" src="wav/oh.wav"></audio> <!-- Audio  linked using data attr-->
     <audio data-type="KeyS" src="wav/my.wav"></audio>
     <audio data-type="KeyD" src="wav/god.wav"></audio>
     <audio data-type="KeyF" src="wav/becky.wav"></audio>
